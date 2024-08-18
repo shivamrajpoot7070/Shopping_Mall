@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display:flex;
+    justify-content: space-around;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items p{
+    color:red;
+    padding:17px;
+}
+
+.nav{
+    background-color: rgb(35, 183, 173);
+    padding: 15px;
+    position: fixed; /* Keep the navbar fixed at the top */
+    width: 100%; /* Ensure the navbar spans the full width */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Ensure it starts from the left edge */
+    z-index: 1; /* Keep it above other content */
+    margin-bottom: 20px;
+}
+
+.navlink {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  .navlink p {
+    margin: 0;
+    padding: 0;
+  }
